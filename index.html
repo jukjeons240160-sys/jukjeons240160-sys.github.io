@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>ART CLASS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="intro">
+
+  <!-- 첫 번째 이미지 (배경) -->
+  <img id="bg" src="images/bg.png" alt="background">
+
+  <!-- 두 번째 이미지 (드래그 대상) -->
+  <img
+    id="item"
+    src="images/cartridge.png"
+    alt="cartridge"
+    draggable="false"
+  >
+
+  <!-- 영상 (GitHub Pages 대응) -->
+  <video
+    id="introVideo"
+    src="video/intro.mp4"
+    muted
+    playsinline
+  ></video>
+
+  <!-- 네 번째 이미지 -->
+  <img id="endImage" src="images/end.png" alt="end">
+
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
